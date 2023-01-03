@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/post/
+POST https://javascriptmas.cyclic.app/api/post/
 Content-Type: application/json
 
 {
@@ -6,15 +6,15 @@ Content-Type: application/json
     "available": true
 }
 ###
-GET http://localhost:3000/api/getAll/
+GET https://javascriptmas.cyclic.app/api/getAll/
 
 ###
-GET http://localhost:3000/api/users/
+GET https://javascriptmas.cyclic.app/api/users/
 ###
 
-GET http://localhost:3000/api/getOne/639b361aff0b7f81809cfaa5
+GET https://javascriptmas.cyclic.app/api/getOne/639b361aff0b7f81809cfaa5
 ###
-PATCH http://localhost:3000/api/update/639b361aff0b7f81809cfaa5
+PATCH https://javascriptmas.cyclic.app/api/update/639b361aff0b7f81809cfaa5
 Content-Type: application/json
 
 {
@@ -22,7 +22,7 @@ Content-Type: application/json
 }
 ###
 
-POST http://localhost:3000/api/users/
+POST https://javascriptmas.cyclic.app/api/users/
 Content-Type: application/json
 
 {
@@ -34,20 +34,20 @@ Content-Type: application/json
 }
 ###
 
-GET http://localhost:3000/api/appointments/2022-12-24
+GET https://javascriptmas.cyclic.app/api/appointments/2022-12-29
 ###
 
-POST http://localhost:3000/api/users/gs
+POST https://javascriptmas.cyclic.app/api/users/gs
 Content-Type: application/json
 
 {
     "password": "password"
 }
 ###
-GET http://localhost:3000/api/appointments/
+GET https://javascriptmas.cyclic.app/api/appointments/
 
 ###
-PATCH  http://localhost:3000/api/appointments/63a4232f9d1e6e72c48419f0
+PATCH  https://javascriptmas.cyclic.app/api/appointments/63a433493e4a7dab54e4c6fc
 Content-Type: application/json
 
 {
@@ -56,9 +56,12 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:3000/api/payment
+POST https://javascriptmas.cyclic.app/api/payment
 Content-Type: application/json
 
 {
     
 }
+
+###
+GET https://localhost/:3000/api/appointments/
